@@ -1,36 +1,214 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SoulBuddy - AI-Powered Spiritual Guide
+
+SoulBuddy is a revolutionary web application that bridges ancient spiritual wisdom with modern technology. By combining AI, 3D visualization, and hand tracking, we create an immersive platform for personalized spiritual guidance and self-discovery.
+
+#Youtube Demo - https://www.youtube.com/watch?v=rUX-Q9DhvLs
+
+## Purpose
+In today's fast-paced world, accessing authentic spiritual guidance can be challenging. SoulBuddy addresses this by providing:
+
+- **24/7 accessible spiritual guidance**
+- **Personalized spiritual analysis**
+- **Interactive visualization of spiritual concepts**
+- **Data-driven spiritual insights**
+- **Virtual try-on for spiritual jewelry**
+
+## Key Features
+
+### 1. Spiritual DNA Analysis
+- Real-time energy field visualization
+- Chakra alignment assessment
+- Personalized spiritual recommendations
+- Interactive energy pattern display
+- Custom meditation suggestions
+
+### 2. Virtual Ring Try-On
+- Real-time hand tracking
+- 3D ring visualization
+- Accurate finger measurements
+- Multiple ring designs
+- Gesture-based interactions
+
+### 3. Birth Chart Analysis
+- Detailed astrological calculations
+- Interactive chart visualization
+- Personalized interpretations
+- Planetary position analysis
+- Compatibility assessments
+
+### 4. AI Spiritual Chat
+- Context-aware responses
+- Multi-tradition knowledge base
+- Personal growth tracking
+- Customized spiritual advice
+- Historical chat records
+
+### 5. Meditation Guide
+- Timing recommendations
+- Posture guidance
+- Progress tracking
+- Custom mantras
+- Energy flow visualization
+
+---
+
+## Technology Stack
+
+### Frontend
+- **Next.js** 15.1.5
+- **React** 18
+- **Three.js** & React Three Fiber
+- **Framer Motion**
+- **TailwindCSS**
+
+### Backend
+- **Next.js API Routes**
+- **AstraDB**
+- **Python** (for hand detection)
+- **FastAPI**
+
+### AI & ML
+- **MediaPipe Hands**
+- **LangFlow Integration**
+- **Custom AI Models**
+
+### Database
+- **AstraDB** for main storage
+- **MongoDB** for caching
+- **Real-time synchronization**
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- **Node.js** 18+
+- **Python** 3.8+
+- **AstraDB account**
+- Basic understanding of:
+  - React/Next.js
+  - 3D graphics
+  - Database operations
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation Steps
+1. Clone repository:
+   ```bash
+   git clone https://github.com/your-username/soulbuddy.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Configure environment variables.
+4. Set up database connections.
+5. Run development server:
+   ```bash
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend Architecture
+- **App Router** for navigation
+- **Server Components** for performance
+- **Client Components** for interactivity
+- **Responsive design system**
+- **Progressive enhancement**
 
-## Learn More
+### Backend Architecture
+- **RESTful API design**
+- **Microservices approach**
+- **Real-time data processing**
+- **Caching strategy**
+- **Security implementation**
 
-To learn more about Next.js, take a look at the following resources:
+### Database Schema
+- **User profiles**
+- **Spiritual data**
+- **Horoscope information**
+- **Chat history**
+- **Analytics data**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Performance Optimization
 
-## Deploy on Vercel
+### Frontend Optimization
+- Code splitting
+- Lazy loading
+- Image optimization
+- Cache management
+- Bundle size reduction
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend Optimization
+- Query optimization
+- Connection pooling
+- Rate limiting
+- Data caching
+- Load balancing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Security Features
+- Authentication system
+- Data encryption
+- CORS configuration
+- API rate limiting
+- Input validation
+
+---
+
+## Deployment
+- **Vercel deployment**
+- **Docker containerization**
+- **CI/CD pipeline**
+- **Environment management**
+- **Monitoring setup**
+
+---
+
+## Testing
+- Unit testing
+- Integration testing
+- E2E testing
+- Performance testing
+- Security testing
+
+---
+
+## Documentation
+- API documentation
+- Component documentation
+- Setup guides
+- Contribution guidelines
+- Best practices
+
+---
+
+## Future Enhancements
+- Advanced AI features
+- More spiritual traditions
+- Community features
+- Mobile applications
+- AR/VR integration
+
+---
+
+## Contributing
+
+1. Fork repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Submit a pull request.
+4. Participate in the code review process.
+5. Follow merge guidelines.
+
+---
+
+---
+
+**SoulBuddy - Your companion on the journey to self-discovery.**
