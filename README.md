@@ -16,6 +16,13 @@ In today's fast-paced world, accessing authentic spiritual guidance can be chall
 ## Langflow Workflow 
 ![image](https://github.com/user-attachments/assets/f7d180c9-897e-4673-af15-f009775604a3)
 
+## AstraDB Usage
+
+- **User Data Storage**
+![image](https://github.com/user-attachments/assets/37343a48-a260-439c-a46f-4e3d79135d9d)
+
+- **Horoscope Data Storage from Prokerala API**
+![image](https://github.com/user-attachments/assets/c22474c3-39f5-42d0-8ea5-1ad02c89785b)
 
 ## Key Features
 
