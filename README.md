@@ -13,6 +13,10 @@ In today's fast-paced world, accessing authentic spiritual guidance can be chall
 - **Data-driven spiritual insights**
 - **Virtual try-on for spiritual jewelry**
 
+## Langflow Workflow 
+![image](https://github.com/user-attachments/assets/f7d180c9-897e-4673-af15-f009775604a3)
+
+
 ## Key Features
 
 ### 1. Spiritual DNA Analysis
